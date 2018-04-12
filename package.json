@@ -1,0 +1,33 @@
+{
+  "name": "air",
+  "version": "1.0.0",
+  "description": "air hackaton",
+  "main": "index.js",
+  "repository": "none",
+  "author": "KarovInal <inal.karov8@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "parcel-bundler": "^1.7.0"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "material-ui": "^1.0.0-beta.40",
+    "react": ">=15",
+    "react-dom": "^16.3.1",
+    "react-google-maps": "^9.4.5",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
