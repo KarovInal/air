@@ -1,0 +1,27 @@
+{
+  "presets": [
+    "env",
+    "es2017"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-async-to-generator",
+    [
+      "transform-runtime",
+      {
+          "polyfill": false,
+          "regenerator": true
+      }
+    ],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "Components": "./src/components",
+        "Const":      "./src/constants",
+        "Data":       "./src/data"
+      }
+    }]
+  ]
+}
