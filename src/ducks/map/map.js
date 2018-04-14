@@ -21,4 +21,13 @@ export const countriesInfoSelector = createSelector(
   (countriesList, info) => countriesList.map(countrie => info[countrie])
 )
 
+export const graphListSelector = state => get(state, 'map.graphs');
+
+export const countrieGraphsSelector = createSelector(
+  graphListSelector, infoSelector,
+  (graphList, info) => graphList.map(graphElem =>
+    graphElem.map(countrieKey => info[countrieKey].coordinates)
+  )
+)
+
 export default mapReducer;

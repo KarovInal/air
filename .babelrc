@@ -21,7 +21,8 @@
         "Components": "./src/components",
         "Const":      "./src/constants",
         "Ducks":      "./src/ducks",
-        "Data":       "./src/data"
+        "Data":       "./src/data",
+        "Libs":       "./src/libs"
       }
     }]
   ]

@@ -3,8 +3,11 @@
   "info": {
     "RUS": {
       "id": "RUS",
+      "flag": "🇷🇺",
       "label": "Россия",
       "countOfPeople": 293,
+      "flightTime": 7200000,
+      "aircraftPower": 1200,
       "coordinates": {
         "lat": 55.754883,
         "lng": 37.621486
@@ -12,9 +15,12 @@
     },
     "KSA": {
       "id": "KSA",
+      "flag": "🇸🇦",
       "label": "Саудовская аравия",
       "countOfPeople": 293,
       "countOfAirplane": 3,
+      "flightTime": 933800,
+      "aircraftPower": 1440,
       "coordinates": {
         "lat": 23.566490,
         "lng": 45.289998
@@ -22,8 +28,11 @@
     },
     "SEN": {
       "id": "SEN",
+      "flag": "🇸🇳",
       "label": "Сенегал",
       "countOfPeople": 141,
+      "flightTime": 745000,
+      "aircraftPower": 1450,
       "coordinates": {
         "lat": 14.351289,
         "lng": -14.521379
@@ -31,9 +40,12 @@
     },
     "SRB": {
       "id": "SRB",
+      "flag": "🇷🇸",
       "label": "Сербия",
       "countOfPeople": 94,
       "countOfAirplane": 2,
+      "flightTime": 400400,
+      "aircraftPower": 1394,
       "coordinates": {
         "lat": 44.012040,
         "lng": 20.915070
@@ -41,7 +53,7 @@
     }
   },
   "graphs": [
-    ["KSA", "RUS"],
+    ["SEN", "KSA", "RUS"],
     ["SRB", "SEN", "RUS"]
   ]
 }

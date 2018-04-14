@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from "styled-components";
 import { InfoWindow } from "react-google-maps";
 import { MarkerWithLabel } from 'react-google-maps/lib/components/addons/MarkerWithLabel';
+import msToTime from 'Libs/msToTime';
 import { MARKER_ANCHOR } from 'Const/coordinates';
 
 const CountryMarker = styled.ul`
@@ -40,20 +41,26 @@ class MarkerCountrie extends Component {
   }
 
   render() {
-    const { coordinates, id, flag = '-' } = this.props;
+    const {
+      id,
+      flag = "🏳",
+      coordinates,
+      countOfPeople,
+      flightTime = 0,
+      aircraftPower
+    } = this.props;
 
-    console.log(this.props);
     return (
       <MarkerWithLabel
         icon="none"
         labelAnchor={MARKER_ANCHOR}
         onClick={this.toggleInfo}
-        position={coordinates}>
-        <div>
+        position={coordinates}
+        defaultAnimation={google.maps.Animation.DROP}
+      >
           <CountryMarker>
             <CountryMarkerItem>{ id }</CountryMarkerItem>
             <CountryMarkerItem>{ flag }</CountryMarkerItem>
-          </CountryMarker>
             { this.state.isShowInfo &&
               <InfoWindow
                 position={ coordinates }
@@ -61,13 +68,13 @@ class MarkerCountrie extends Component {
                 onCloseClick={this.toggleInfo}
               >
                 <div>
-                  <CountryInfoText>Кол. пас.: 340</CountryInfoText>
-                  <CountryInfoText>Время полета: 3ч. 32м.</CountryInfoText>
-                  <CountryInfoText>Мощность сам.: 1000 л. с.</CountryInfoText>
+                  <CountryInfoText>Кол. пас.: { countOfPeople }</CountryInfoText>
+                  <CountryInfoText>Время полета: {msToTime(flightTime)}</CountryInfoText>
+                  <CountryInfoText>Мощность сам.: {aircraftPower} л. с.</CountryInfoText>
                 </div>
               </InfoWindow>
             }
-        </div>
+          </CountryMarker>
       </MarkerWithLabel>
     )
   }

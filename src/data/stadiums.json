@@ -1,0 +1,146 @@
+[
+  {
+    "id": "MSK_LGNK",
+    "city": "MSK",
+    "label": "Лужники",
+    "capacity": 81000,
+    "img_outside": "https://upload.wikimedia.org/wikipedia/commons/4/48/Luzhniki_Stadium1.jpg",
+    "img_interior": "https://upload.wikimedia.org/wikipedia/ru/thumb/a/a4/Luzhniki_Inside_View_B_Stand.jpg/1280px-Luzhniki_Inside_View_B_Stand.jpg",
+    "coordinates": {
+      "lat": 55.71566,
+      "lng": 37.55533
+    }
+  },
+  {
+    "id": "MSK_SPRTK",
+    "city": "MSK",
+    "label": "Спартак",
+    "capacity": 45360,
+    "img_outside": "https://upload.wikimedia.org/wikipedia/commons/3/39/Match_veteranov_Spartaka_%286%29.jpg",
+    "img_interior": "https://upload.wikimedia.org/wikipedia/commons/1/12/Match_veteranov_Spartaka_%2810%29.jpg?uselang=ru",
+    "coordinates": {
+      "lat": 55.81733,
+      "lng": 37.43733
+    }
+  },
+  {
+    "id": "SPB",
+    "city": "SPB",
+    "label": "Санкт-Петербург",
+    "capacity": 67800,
+    "img_outside": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spb_06-2017_img40_Krestovsky_Stadium.jpg",
+    "img_interior": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Fina-l2017.jpg",
+    "coordinates": {
+      "lat": 59.97263,
+      "lng": 30.22227
+    }
+  },
+  {
+    "id": "KZN",
+    "city": "KZN",
+    "label": "Казань Арена",
+    "capacity": 45000,
+    "img_outside": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/%D0%9E%D0%B1%D1%89%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0.jpg/1920px-%D0%9E%D0%B1%D1%89%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0.jpg",
+    "img_interior": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/%D0%A7%D0%B0%D1%88%D0%B0_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0_%D0%B2%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D0%BC%D0%B0%D1%82%D1%87%D0%B0.jpg/1920px-%D0%A7%D0%B0%D1%88%D0%B0_%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0_%D0%B2%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D0%BC%D0%B0%D1%82%D1%87%D0%B0.jpg",
+    "coordinates": {
+      "lat": 55.82075,
+      "lng": 49.16257
+    }
+  },
+  {
+    "id": "EKB",
+    "city": "EKB",
+    "label": "Екатеринбург Арена",
+    "capacity": 35000,
+    "img_outside": "https://images.aif.ru/013/678/07078ddd3641d1e594d7d8b4756be210.jpg",
+    "img_interior": "https://upload.wikimedia.org/wikipedia/commons/a/a0/CentralStadiumYekaterinburg.jpg",
+    "coordinates": {
+      "lat": 56.83205,
+      "lng": 60.57533
+    }
+  },
+  {
+    "id": "SKX",
+    "city": "SKX",
+    "label": "Мордовия Арена",
+    "capacity": 45360,
+    "img_outside": "https://ru2018.org/upload/000/u1/0d/7d/mordovija-arena-saransk-photo-big.jpg",
+    "img_interior": "https://stolica-s.su/wp-content/uploads/2017/10/1509005739-stolica-s-su-rD99FyIiPhI-900x570.jpg",
+    "coordinates": {
+      "lat": 54.18157,
+      "lng": 45.20545
+    }
+  },
+  {
+    "id": "SMR",
+    "city": "SMR",
+    "label": "Самара Арена",
+    "capacity": 44918,
+    "img_outside": "http://www.mk.ru/upload/entities/2017/11/22/articles/detailPicture/6a/fc/12/3a/a18d310845912494c7046a7294697179.jpg",
+    "img_interior": "http://bfmsamara.ru/wp-content/uploads/2017/10/111-2.jpg",
+    "coordinates": {
+      "lat": 53.27814,
+      "lng": 50.23921
+    }
+  },
+  {
+    "id": "SCH",
+    "city": "SCH",
+    "label": "Фишт",
+    "capacity": 44000,
+    "img_outside": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%C2%AB%D0%A4%D0%B8%D1%88%D1%82%C2%BB_%D0%A1%D0%BE%D1%87%D0%B8_2014.jpg/1920px-%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_%C2%AB%D0%A4%D0%B8%D1%88%D1%82%C2%BB_%D0%A1%D0%BE%D1%87%D0%B8_2014.jpg",
+    "img_interior": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2017_Confederation_Cup_-_MEXNZL_-_Fisht.jpg/1036px-2017_Confederation_Cup_-_MEXNZL_-_Fisht.jpg",
+    "coordinates": {
+      "lat": 43.402,
+      "lng": 39.95728
+    }
+  },
+  {
+    "id": "RVI",
+    "city": "RVI",
+    "label": "Ростов Арена",
+    "capacity": 43702,
+    "img_outside": "https://rostovgazeta.ru/attachments/746e6e555bcfb7fb83c7eed4624eddb3b7ff849f/store/fill/780/440/4f4c4ca39a918f5e9b1502a5abea7a39be7f0cb0a842b6591746fe7389f2/tass_22727721-kopiya.jpg",
+    "img_interior": "http://www.donnews.ru/crop/645/395/media/images/2018/03/17/sQAvTTTq2sI.jpg",
+    "coordinates": {
+      "lat": 47.20923,
+      "lng": 39.74005
+    }
+  },
+  {
+    "id": "KGD",
+    "city": "KGD",
+    "label": "Калининград",
+    "capacity": 35015,
+    "img_outside": "https://www.s-bc.ru/media/70/ac/472fc73a595b33113af8af74e114.jpg",
+    "img_interior": "https://worldcuprussia.com/img/stadiums-panoram/kaliningrad-stadium.jpg",
+    "coordinates": {
+      "lat": 54.69795,
+      "lng": 20.53558
+    }
+  },
+  {
+    "id": "GOJ",
+    "city": "GOJ",
+    "label": "Нижний Новгород",
+    "capacity": 44899,
+    "img_outside": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Nizhny_Novgorod_Stadium_%28March_2018%29.jpg/1920px-Nizhny_Novgorod_Stadium_%28March_2018%29.jpg",
+    "img_interior": "http://img2.ntv.ru/home/news/20170930/16_foot_n_io.jpg",
+    "coordinates": {
+      "lat": 56.33622,
+      "lng": 43.96282
+    }
+  },
+  {
+    "id": "VOG",
+    "city": "VOG",
+    "label": "Волгоград Арена",
+    "capacity": 45015,
+    "img_outside": "http://rotor-volgograd.ru/uploads/posts/2017-10/1508420668_2.jpg",
+    "img_interior": "https://worldcuprussia.com/img/stadiums-panoram/volgograd-arena.jpg",
+    "coordinates": {
+      "lat": 48.73437,
+      "lng": 44.54984
+    }
+  }
+]
