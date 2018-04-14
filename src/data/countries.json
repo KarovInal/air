@@ -1,8 +1,47 @@
 {
-  "countries": [
-    {
-      "let": "",
-      "lng": ""
+  "countries": [ "RUS", "KSA", "SEN", "SRB" ],
+  "info": {
+    "RUS": {
+      "id": "RUS",
+      "label": "Россия",
+      "countOfPeople": 293,
+      "coordinates": {
+        "lat": 55.754883,
+        "lng": 37.621486
+      }
+    },
+    "KSA": {
+      "id": "KSA",
+      "label": "Саудовская аравия",
+      "countOfPeople": 293,
+      "countOfAirplane": 3,
+      "coordinates": {
+        "lat": 23.566490,
+        "lng": 45.289998
+      }
+    },
+    "SEN": {
+      "id": "SEN",
+      "label": "Сенегал",
+      "countOfPeople": 141,
+      "coordinates": {
+        "lat": 14.351289,
+        "lng": -14.521379
+      }
+    },
+    "SRB": {
+      "id": "SRB",
+      "label": "Сербия",
+      "countOfPeople": 94,
+      "countOfAirplane": 2,
+      "coordinates": {
+        "lat": 44.012040,
+        "lng": 20.915070
+      }
     }
+  },
+  "graphs": [
+    ["KSA", "RUS"],
+    ["SRB", "SEN", "RUS"]
   ]
 }
