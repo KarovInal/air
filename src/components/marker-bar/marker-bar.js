@@ -46,7 +46,8 @@ class MarkerBar extends Component {
       id,
       lat,
       lng,
-      name
+      name,
+      rating
     } = this.props;
 
     const coordinates = {
@@ -60,11 +61,24 @@ class MarkerBar extends Component {
         icon={{
           url: barIcon
         }}
+        onClick={this.toggleInfo}
         labelAnchor={MARKER_ANCHOR}
         onClick={this.toggleInfo}
         position={coordinates}
-        defaultAnimation={google.maps.Animation.DROP}
-      />
+        defaultAnimation={google.maps.Animation.DROP}>
+        { this.state.isShowInfo &&
+          <InfoWindow
+            position={ coordinates }
+            options={{ closeBoxURL: ``, enableEventPropagation: true }}
+            onCloseClick={this.toggleInfo}
+          >
+            <div>
+              <h2>{ name }</h2>
+              <CountryInfoText>Рейтинг: { rating || 0 }</CountryInfoText>
+            </div>
+          </InfoWindow>
+        }
+      </Marker>
     )
   }
 }

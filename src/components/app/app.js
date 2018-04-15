@@ -12,6 +12,17 @@ import { withStyles } from 'material-ui/styles';
 import { Drawer, AppBar, Typography, Toolbar, Button } from 'material-ui';
 import MarkerBar from 'Components/marker-bar';
 import bars from 'Data/bars';
+import MapPage from 'Pages/map-page'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
+import List, { ListItem, ListItemText } from 'material-ui/List';
+import brainIcon from 'Data/brain.png';
+import placeMapIcon from 'Data/place-map.png';
+import teamIcon from 'Data/team.png';
+import voteIcon from 'Data/vote.png';
 
 const drawerWidth = 240;
 
@@ -40,7 +51,7 @@ const styles = theme => ({
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
-    paddingLeft: '60px',
+    paddingLeft: '240px',
     paddingTop: '55px',
     minWidth: 0,
   }
@@ -60,7 +71,7 @@ class App extends Component {
       <div>
         <AppBar className={classes.appBar}>
           <Toolbar>
-            <Typography variant="title" color="inherit">
+            <Typography variant="title" color="inherit" style={{ verticalAlign: 'middle' }}>
               FOOTBALL APP
             </Typography>
           </Toolbar>
@@ -71,17 +82,34 @@ class App extends Component {
           }}
         >
           <div className={classes.toolbar} />
-          <Button>HOME</Button>
+          <br />
+          <Link to="/maps">
+            <Button fullWidth>
+              <img src={placeMapIcon} style={{ height: '30px', marginRight: '10px' }} />
+              Карта
+            </Button>
+          </Link>
+          <br />
+          <Link to="/graph-page">
+            <Button fullWidth>
+              <img src={brainIcon} style={{ height: '30px', marginRight: '10px' }} />
+              Предсказание матчей
+            </Button>
+          </Link>
+          <br />
+          <Link to="/teams">
+            <Button fullWidth>
+              <img src={teamIcon} style={{ height: '30px', marginRight: '10px' }} />
+              Список команд
+            </Button>
+          </Link>
+          <Link to="/vouter">
+            <Button fullWidth>
+              <img src={voteIcon} style={{ height: '30px', marginRight: '10px' }} />
+              Угадай страну
+            </Button>
+          </Link>
         </Drawer>
-        <div className={classes.content}>
-          <AirMap>
-            {
-              stadiums.map((stadium, index) =>
-                <MarkerStadium key={index} { ...stadium } />
-              )
-            }
-          </AirMap>
-        </div>
       </div>
     )
   }

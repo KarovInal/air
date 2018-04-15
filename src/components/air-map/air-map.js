@@ -16,7 +16,7 @@ import bars from 'Data/bars';
   googleMapURL: MAP_URL,
   loadingElement: <div style={{ height: `100vh` }} />,
   containerElement: <div style={{ height: `600px` }} />,
-  mapElement: <div style={{ height: `600px` }} />
+  mapElement: <div style={{ height: `100vh` }} />
 })
 @withScriptjs
 @withGoogleMap

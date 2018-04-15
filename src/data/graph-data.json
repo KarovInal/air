@@ -1,0 +1,160 @@
+[
+  [
+    {
+      "target": "Iran",
+      "target_win_prob": 0.10589983314275742,
+      "source_goals": 2,
+      "source_win_prob": 0.8941001892089844,
+      "source": "Egypt",
+      "target_goals": 1,
+      "winner": "Egypt",
+      "group": "1/8"
+    },
+    {
+      "target": "Croatia",
+      "target_win_prob": 0.11074415594339371,
+      "source_goals": 2,
+      "source_win_prob": 0.8892558217048645,
+      "source": "Australia",
+      "target_goals": 1,
+      "winner": "Australia",
+      "group": "1/8"
+    },
+    {
+      "target": "CostaRica",
+      "target_win_prob": 0.04386736452579498,
+      "source_goals": 3,
+      "source_win_prob": 0.9561326503753662,
+      "source": "Germany",
+      "target_goals": 0,
+      "winner": "Germany",
+      "group": "1/8"
+    },
+    {
+      "target": "England",
+      "target_win_prob": 0.17058861255645752,
+      "source_goals": 2,
+      "source_win_prob": 0.8294113874435425,
+      "source": "Colombia",
+      "target_goals": 1,
+      "winner": "Colombia",
+      "group": "1/8"
+    },
+    {
+      "target": "KoreaRepublic",
+      "target_win_prob": 0.03214534744620323,
+      "source_goals": 3,
+      "source_win_prob": 0.9678546786308289,
+      "source": "Brazil",
+      "target_goals": 0,
+      "winner": "Brazil",
+      "group": "1/8"
+    },
+    {
+      "target": "Japan",
+      "target_win_prob": 0.08260881900787354,
+      "source_goals": 2,
+      "source_win_prob": 0.9173911809921265,
+      "source": "Belgium",
+      "target_goals": 1,
+      "winner": "Belgium",
+      "group": "1/8"
+    },
+    {
+      "target": "Russia",
+      "target_win_prob": 0.2066810578107834,
+      "source_goals": 2,
+      "source_win_prob": 0.7933189272880554,
+      "source": "Morocco",
+      "target_goals": 1,
+      "winner": "Morocco",
+      "group": "1/8"
+    },
+    {
+      "target": "Denmark",
+      "target_win_prob": 0.029603801667690277,
+      "source_goals": 3,
+      "source_win_prob": 0.9703962206840515,
+      "source": "Argentina",
+      "target_goals": 0,
+      "winner": "Argentina",
+      "group": "1/8"
+    }
+  ],
+  [
+    {
+      "target": "Australia",
+      "target_win_prob": 0.018779808655381203,
+      "source_goals": 4,
+      "source_win_prob": 0.9812201857566833,
+      "source": "Egypt",
+      "target_goals": 0,
+      "winner": "Egypt",
+      "group": "1/4"
+    },
+    {
+      "target": "Colombia",
+      "target_win_prob": 0.07499769330024719,
+      "source_goals": 2,
+      "source_win_prob": 0.9250022768974304,
+      "source": "Germany",
+      "target_goals": 1,
+      "winner": "Germany",
+      "group": "1/4"
+    },
+    {
+      "target": "Belgium",
+      "target_win_prob": 0.022784091532230377,
+      "source_goals": 3,
+      "source_win_prob": 0.9772158861160278,
+      "source": "Brazil",
+      "target_goals": 0,
+      "winner": "Brazil",
+      "group": "1/4"
+    },
+    {
+      "target": "Argentina",
+      "target_win_prob": 0.12356878817081451,
+      "source_goals": 2,
+      "source_win_prob": 0.8764312267303467,
+      "source": "Morocco",
+      "target_goals": 1,
+      "winner": "Morocco",
+      "group": "1/4"
+    }
+  ],
+  [
+    {
+      "target": "Germany",
+      "target_win_prob": 0.05091501772403717,
+      "source_goals": 3,
+      "source_win_prob": 0.949084997177124,
+      "source": "Egypt",
+      "target_goals": 0,
+      "winner": "Egypt",
+      "group": "1/2"
+    },
+    {
+      "target": "Morocco",
+      "target_win_prob": 0.08167659491300583,
+      "source_goals": 2,
+      "source_win_prob": 0.9183233976364136,
+      "source": "Brazil",
+      "target_goals": 1,
+      "winner": "Brazil",
+      "group": "1/2"
+    }
+  ],
+  [
+    {
+      "target": "Brazil",
+      "target_win_prob": 0.5641136765480042,
+      "source_goals": 1,
+      "source_win_prob": 0.43588635325431824,
+      "source": "Egypt",
+      "target_goals": 1,
+      "winner": "Brazil",
+      "group": "final"
+    }
+  ]
+]

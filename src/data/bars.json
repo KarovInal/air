@@ -13,7 +13,7 @@
     "lng": 37.543624,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Восток, спорт-бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "MSK_LGNK",
@@ -37,7 +37,7 @@
     "lng": 37.56417,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
     "name": "Гранд Сити",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "MSK_SPRTK",
@@ -45,7 +45,7 @@
     "lng": 37.4449619,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "ФОРА, бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "MSK_SPRTK",
@@ -93,7 +93,7 @@
     "lng": 37.43631,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Спорт бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "SPB",
@@ -109,7 +109,7 @@
     "lng": 30.208936,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Juice Master",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "SPB",
@@ -117,7 +117,7 @@
     "lng": 30.241524,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Cadillac Bar & Terrace",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "SPB",
@@ -157,7 +157,7 @@
     "lng": 60.5873828,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Одесса, Бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "EKB",
@@ -197,7 +197,7 @@
     "lng": 60.59004100000001,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "ООО \"Промо-регион\" Ателье вина \"Абрау - Дюрсо\"",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "EKB",
@@ -205,7 +205,7 @@
     "lng": 60.57051109999999,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "LAFABAR",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "EKB",
@@ -229,7 +229,7 @@
     "lng": 60.582333,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Juice Master",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "EKB",
@@ -261,7 +261,7 @@
     "lng": 60.5655091,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Chinaboo",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "EKB",
@@ -293,7 +293,7 @@
     "lng": 60.5906491,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Вождь",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "EKB",
@@ -349,7 +349,7 @@
     "lng": 39.9673988,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Вкусное Вино",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "SCH",
@@ -373,7 +373,7 @@
     "lng": 39.7319519,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Богатяновский, Пивной Бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "RVI",
@@ -413,7 +413,7 @@
     "lng": 43.956822,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "DJ-BAR, ООО \"Фобус\"",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "GOJ",
@@ -429,7 +429,7 @@
     "lng": 43.9483515,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "ЛавКрафт",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "GOJ",
@@ -437,7 +437,7 @@
     "lng": 43.9559308,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "GOJ",
@@ -469,7 +469,7 @@
     "lng": 44.5493868,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Синий Мрамор Бар",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "VOG",
@@ -493,7 +493,7 @@
     "lng": 44.53772559999999,
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
     "name": "Андеграунд",
-    "rating": "?"
+    "rating": ""
   },
   {
     "id": "VOG",

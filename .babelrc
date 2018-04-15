@@ -22,7 +22,8 @@
         "Const":      "./src/constants",
         "Ducks":      "./src/ducks",
         "Data":       "./src/data",
-        "Libs":       "./src/libs"
+        "Libs":       "./src/libs",
+        "Pages":      "./src/pages"
       }
     }]
   ]
