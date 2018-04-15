@@ -23,6 +23,7 @@ import brainIcon from 'Data/brain.png';
 import placeMapIcon from 'Data/place-map.png';
 import teamIcon from 'Data/team.png';
 import voteIcon from 'Data/vote.png';
+import jokeIcon from 'Data/joke.png';
 
 const drawerWidth = 240;
 
@@ -107,6 +108,12 @@ class App extends Component {
             <Button fullWidth>
               <img src={voteIcon} style={{ height: '30px', marginRight: '10px' }} />
               Угадай страну
+            </Button>
+          </Link>
+          <Link to="/anek">
+            <Button fullWidth>
+              <img src={jokeIcon} style={{ height: '30px', marginRight: '10px' }} />
+              JOKES
             </Button>
           </Link>
         </Drawer>

@@ -9,6 +9,7 @@ import MapPage from 'Pages/map-page';
 import GraphPage from 'Pages/graph-page';
 import TeamPage from 'Pages/team-page';
 import VouterPage from 'Pages/vouter-page';
+import AnekPage from 'Pages/anek-page';
 import './style.css';
 import {
   BrowserRouter as Router,
@@ -25,6 +26,7 @@ render(
         <Route path="/graph-page" component={ GraphPage } />
         <Route path="/teams" component={ TeamPage } />
         <Route path="/vouter" component={ VouterPage } />
+        <Route path="/anek" component={ AnekPage } />
       </div>
     </Router>
   </Provider>,
