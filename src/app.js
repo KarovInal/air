@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import App from './components/app';
 import stadiums from 'Data/stadiums';
+import './style.css';
 
 render(
   <Provider store={store}>

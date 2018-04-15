@@ -1,46 +1,57 @@
 import React, { Component } from 'react';
 import { compose, withProps, withStateHandlers } from 'recompose';
+import { isEmpty } from 'lodash';
 import {
   GoogleMap,
   withGoogleMap,
   withScriptjs,
 } from "react-google-maps";
+import MarkerBar from 'Components/marker-bar';
 import { DEFAULT_CENTER } from 'Const/coordinates';
 import { MAP_URL, DEFAULT_ZOOM } from 'Const/settings';
+import bars from 'Data/bars';
 
 @withProps({
   center: DEFAULT_CENTER,
   googleMapURL: MAP_URL,
-  loadingElement: <div style={{ height: `100%` }} />,
-  containerElement: <div style={{ height: `900px` }} />,
-  mapElement: <div style={{ height: `100%` }} />
+  loadingElement: <div style={{ height: `100vh` }} />,
+  containerElement: <div style={{ height: `600px` }} />,
+  mapElement: <div style={{ height: `600px` }} />
 })
 @withScriptjs
 @withGoogleMap
 class AirMap extends Component {
-  handleClick = () => {
-    var request = {
-      location: DEFAULT_CENTER,
-      radius: '500',
-      query: 'Пицца'
-    };
-    console.log(this.mapEl);
-    let service = new google.maps.places.PlacesService(this.mapEl);
-    service.textSearch(request, (req, res) => console.log(req, res));
+  state = {
+    zoomLevel: DEFAULT_ZOOM,
+    center: DEFAULT_CENTER,
+    isDisplayBars: false
+  }
+
+  handleZoomChange = () => {
+    const ZOOM = this.refs.map.context.__SECRET_MAP_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.zoom;
+
+    (ZOOM >= 10)
+      ? this.setState({ isDisplayBars: true })
+      : this.setState({ isDisplayBars: false })
   }
 
   render() {
+    const { isDisplayBars } = this.state;
+
     return (
-      <div>
-        <button onClick={this.handleClick}>BARS!</button>
-        <GoogleMap
-          ref={mapEl => this.mapEl = mapEl}
-          zoom={DEFAULT_ZOOM}
-          defaultCenter={DEFAULT_CENTER}
-        >
-          { this.props.children }
-        </GoogleMap>
-      </div>
+      <GoogleMap
+        ref='map'
+        zoom={this.state.zoomLevel}
+        center={this.state.center}
+        onZoomChanged={this.handleZoomChange}
+      >
+        {this.props.children}
+        {
+          isDisplayBars && bars.map((bar, barIndex) =>
+            <MarkerBar {...bar} key={barIndex} />
+          )
+        }
+      </GoogleMap>
     );
   }
 }

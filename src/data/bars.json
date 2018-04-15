@@ -1,0 +1,506 @@
+[
+  {
+    "id": "MSK_LGNK",
+    "lat": 55.71487,
+    "lng": 37.561023,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "1 Тайм, Спорт-бар",
+    "rating": 3.8
+  },
+  {
+    "id": "MSK_LGNK",
+    "lat": 55.719171,
+    "lng": 37.543624,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Восток, спорт-бар",
+    "rating": "?"
+  },
+  {
+    "id": "MSK_LGNK",
+    "lat": 55.713285,
+    "lng": 37.571018,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Ресторан-бар Choice Moscow",
+    "rating": 4.6
+  },
+  {
+    "id": "MSK_LGNK",
+    "lat": 55.7228572,
+    "lng": 37.561854,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Кафе Спектр",
+    "rating": 4
+  },
+  {
+    "id": "MSK_LGNK",
+    "lat": 55.705576,
+    "lng": 37.56417,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "name": "Гранд Сити",
+    "rating": "?"
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.82667199999999,
+    "lng": 37.4449619,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "ФОРА, бар",
+    "rating": "?"
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.8266618,
+    "lng": 37.4450488,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "КиллФиш",
+    "rating": 4
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.8266126,
+    "lng": 37.4261324,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "лит.ра",
+    "rating": 5
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.8266511,
+    "lng": 37.4363711,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Beer & Beard Bar",
+    "rating": 5
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.826746,
+    "lng": 37.445567,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Кружка",
+    "rating": 3.4
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.82702579999999,
+    "lng": 37.4474137,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Магазин - Бар \"Mr.AmBar\"",
+    "rating": 4.9
+  },
+  {
+    "id": "MSK_SPRTK",
+    "lat": 55.827518,
+    "lng": 37.43631,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Спорт бар",
+    "rating": "?"
+  },
+  {
+    "id": "SPB",
+    "lat": 59.981267,
+    "lng": 30.210328,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Sasha's Bar",
+    "rating": 3.5
+  },
+  {
+    "id": "SPB",
+    "lat": 59.98118530000001,
+    "lng": 30.208936,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Juice Master",
+    "rating": "?"
+  },
+  {
+    "id": "SPB",
+    "lat": 59.9634659,
+    "lng": 30.241524,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Cadillac Bar & Terrace",
+    "rating": "?"
+  },
+  {
+    "id": "SPB",
+    "lat": 59.983099,
+    "lng": 30.21590609999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "O'Hooligans",
+    "rating": 4.6
+  },
+  {
+    "id": "KZN",
+    "lat": 55.8250001,
+    "lng": 49.1545718,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "GRILLWOOD",
+    "rating": 4.3
+  },
+  {
+    "id": "KZN",
+    "lat": 55.8201603,
+    "lng": 49.1465182,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "HOME PUB",
+    "rating": 4.5
+  },
+  {
+    "id": "EKB",
+    "lat": 56.834486,
+    "lng": 60.58819399999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "The Vepr Bar",
+    "rating": 4.8
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8314989,
+    "lng": 60.5873828,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Одесса, Бар",
+    "rating": "?"
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8369395,
+    "lng": 60.5824982,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Мята",
+    "rating": 4.7
+  },
+  {
+    "id": "EKB",
+    "lat": 56.832476,
+    "lng": 60.5735821,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "PLAY ROOM, бар",
+    "rating": 4
+  },
+  {
+    "id": "EKB",
+    "lat": 56.836403,
+    "lng": 60.5754914,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "name": "Флигель",
+    "rating": 2
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8323932,
+    "lng": 60.59004110000001,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Brugge Brasserie Belge",
+    "rating": 4.7
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8323932,
+    "lng": 60.59004100000001,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "ООО \"Промо-регион\" Ателье вина \"Абрау - Дюрсо\"",
+    "rating": "?"
+  },
+  {
+    "id": "EKB",
+    "lat": 56.828764,
+    "lng": 60.57051109999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "LAFABAR",
+    "rating": "?"
+  },
+  {
+    "id": "EKB",
+    "lat": 56.830455,
+    "lng": 60.59094099999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Лобби-бар",
+    "rating": 5
+  },
+  {
+    "id": "EKB",
+    "lat": 56.833797,
+    "lng": 60.591844,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "name": "Нельсон Совин",
+    "rating": 4.7
+  },
+  {
+    "id": "EKB",
+    "lat": 56.832428,
+    "lng": 60.582333,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Juice Master",
+    "rating": "?"
+  },
+  {
+    "id": "EKB",
+    "lat": 56.829286,
+    "lng": 60.5919373,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Перепелочка",
+    "rating": 4.5
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8331858,
+    "lng": 60.5693353,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "BaBa Bar",
+    "rating": 4.4
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8324139,
+    "lng": 60.5899347,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Брюгге",
+    "rating": 4.7
+  },
+  {
+    "id": "EKB",
+    "lat": 56.83002699999999,
+    "lng": 60.5655091,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Chinaboo",
+    "rating": "?"
+  },
+  {
+    "id": "EKB",
+    "lat": 56.832395,
+    "lng": 60.570272,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Гордон'с",
+    "rating": 4.5
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8326157,
+    "lng": 60.58568099999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Ирландский дворик",
+    "rating": 4.4
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8301993,
+    "lng": 60.5915563,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Асадо",
+    "rating": 4.9
+  },
+  {
+    "id": "EKB",
+    "lat": 56.836543,
+    "lng": 60.5906491,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Вождь",
+    "rating": "?"
+  },
+  {
+    "id": "EKB",
+    "lat": 56.8305832,
+    "lng": 60.59305020000001,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Винотека BAR-OLO",
+    "rating": 4.8
+  },
+  {
+    "id": "SKX",
+    "lat": 54.191232,
+    "lng": 45.1892912,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+    "name": "КАТАКАНА, караоке-бар",
+    "rating": 4
+  },
+  {
+    "id": "SKX",
+    "lat": 54.1868254,
+    "lng": 45.18732079999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Мируки & Итальяно",
+    "rating": 4.4
+  },
+  {
+    "id": "SCH",
+    "lat": 43.4032147,
+    "lng": 39.946168,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Volna Beach Bar",
+    "rating": 4.7
+  },
+  {
+    "id": "SCH",
+    "lat": 43.4110612,
+    "lng": 39.9541704,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Гриль БАР \" Ковбой\"",
+    "rating": 3.2
+  },
+  {
+    "id": "SCH",
+    "lat": 43.40221469999999,
+    "lng": 39.94676949999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Пляжный клуб Имеретинский",
+    "rating": 4.2
+  },
+  {
+    "id": "SCH",
+    "lat": 43.3998923,
+    "lng": 39.9673988,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Вкусное Вино",
+    "rating": "?"
+  },
+  {
+    "id": "SCH",
+    "lat": 43.403527,
+    "lng": 39.9457667,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Кафе Парус",
+    "rating": 4.5
+  },
+  {
+    "id": "SCH",
+    "lat": 43.3956376,
+    "lng": 39.9719829,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Кальян-бар \"Тихая Гавань\"",
+    "rating": 5
+  },
+  {
+    "id": "RVI",
+    "lat": 47.218616,
+    "lng": 39.7319519,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Богатяновский, Пивной Бар",
+    "rating": "?"
+  },
+  {
+    "id": "RVI",
+    "lat": 47.2184669,
+    "lng": 39.7331366,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Red Burger Bar",
+    "rating": 4.4
+  },
+  {
+    "id": "KGD",
+    "lat": 54.6960017,
+    "lng": 20.5232741,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Рок Бар Бастион",
+    "rating": 3.7
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.34224219999999,
+    "lng": 43.9497156,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "name": "Hooligan's Bar",
+    "rating": 4.7
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.3296309,
+    "lng": 43.9616467,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "name": "Ярмарочный Бар",
+    "rating": 3
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.333728,
+    "lng": 43.956822,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "DJ-BAR, ООО \"Фобус\"",
+    "rating": "?"
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.3287092,
+    "lng": 43.9545537,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+    "name": "Кафе Ланселот",
+    "rating": 3.8
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.34228969999999,
+    "lng": 43.9483515,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "ЛавКрафт",
+    "rating": "?"
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.3278269,
+    "lng": 43.9559308,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Бар",
+    "rating": "?"
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.32760279999999,
+    "lng": 43.9447455,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Русский Сад",
+    "rating": 5
+  },
+  {
+    "id": "GOJ",
+    "lat": 56.3264978,
+    "lng": 43.9821044,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Медные Трубы",
+    "rating": 4.7
+  },
+  {
+    "id": "VOG",
+    "lat": 48.7331687,
+    "lng": 44.5418682,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Joker Dance Bar",
+    "rating": 3.7
+  },
+  {
+    "id": "VOG",
+    "lat": 48.7432916,
+    "lng": 44.5493868,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Синий Мрамор Бар",
+    "rating": "?"
+  },
+  {
+    "id": "VOG",
+    "lat": 48.725093,
+    "lng": 44.543087,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Full House, бильярдный клуб",
+    "rating": 4
+  },
+  {
+    "id": "VOG",
+    "lat": 48.73319850000001,
+    "lng": 44.54184679999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+    "name": "InRock",
+    "rating": 4.1
+  },
+  {
+    "id": "VOG",
+    "lat": 48.730025,
+    "lng": 44.53772559999999,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Андеграунд",
+    "rating": "?"
+  },
+  {
+    "id": "VOG",
+    "lat": 48.72903849999999,
+    "lng": 44.5395802,
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "name": "Бункер",
+    "rating": 4.5
+  }
+]
