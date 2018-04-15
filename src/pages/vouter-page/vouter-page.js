@@ -12,6 +12,7 @@ import { countriesInfoSelector, countrieGraphsSelector } from 'Ducks/map';
 import stadiums from 'Data/stadiums';
 import { withStyles } from 'material-ui/styles';
 import { Drawer, AppBar, Toolbar, Button, Grid } from 'material-ui';
+import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
 import MarkerBar from 'Components/marker-bar';
 import playersVoutes from 'Data/player-voutes.json';
 import teams from 'Data/teams.json';
@@ -25,8 +26,15 @@ const styles = theme => ({
     backgroundColor: theme.palette.background.default,
     paddingLeft: '240px',
     paddingTop: '80px',
+    height: '100vh',
     minWidth: 0,
-  }
+  },
+  card: {
+    maxWidth: 345,
+  },
+  media: {
+    height: 200,
+  },
 });
 
 @withStyles(styles)
@@ -52,34 +60,37 @@ class VouterPage extends Component {
     }
   }
 
-  renderCard(img) {
-    return <Grid item style={{ width: '300px'}}>
-      <Paper>
-        <img src={img} width="100%"/>
-      </Paper>
-    </Grid>
+  renderCard = img => {
+    const { classes } = this.props;
+    return <CardMedia
+      className={classes.media}
+      image={img}
+      title="Contemplative Reptile"
+    />
   }
 
   renderVotes = votes => (
-    <Grid item style={{ width: '300px'}}>
+    <Grid style={{ width: '100%'}}>
       {votes.map((vote, voteIndex) => {
-        return (
-          <Paper style={{ margin: '2px', padding: '2px', cursor: "pointer" }}
-            key={voteIndex}
-            onClick={() => { console.log(vote); this.voteChecker(vote) }}
-          >
-            { vote }
-          </Paper>
-        )
-      }
+          return (
+            <Button variant="raised" fullWidth color="primary" style={{ margin: '5px', textAlign: 'center', cursor: "pointer" }}
+              key={voteIndex}
+              onClick={() => { console.log(vote); this.voteChecker(vote) }}
+            >
+              { vote }
+            </Button>
+          )
+        }
       )}
     </Grid>
   )
 
   renderStatics = () => {
-    return <Grid item style={{ width: '300px'}}>
-      <p>Верно: {this.state.success}</p>
-      <p>Не верно: {this.state.failed}</p>
+    return <Grid item style={{ width: '300px', textAlign: 'center'}}>
+      <Typography>
+        Верно: {this.state.success + '/'}
+        Не верно: {this.state.failed}
+      </Typography>
     </Grid>
   }
 
@@ -102,10 +113,14 @@ class VouterPage extends Component {
     return (
       <div className={classes.content}>
         <Grid container alignContent="center" justify="center">
-          <Grid>
+          <Card className={classes.card}>
             { this.renderStatics() }
             { this.renderCard(this.state.voteList[this.state.count].img) }
-            { this.renderVotes([this.state.voteList[this.state.count].ans, ...sampleSize(teamsList, 3)]) }
+            <CardActions>
+              { this.renderVotes([this.state.voteList[this.state.count].ans, ...sampleSize(teamsList, 3)]) }
+            </CardActions>
+          </Card>
+          <Grid>
           </Grid>
         </Grid>
       </div>

@@ -19,7 +19,7 @@ const nodeParser = jsonData => {
   let padding = 150;
   jsonData.map((stage, stageIndex) => {
     let x = padding;
-    y += 50;
+    y += 100;
     stage.map((game, gameIndex) => {
       x += 50;
       result.push({
@@ -43,8 +43,8 @@ const nodeParser = jsonData => {
           id: `${game.winner}${stageIndex + 1}`,
           label: game.winner,
           svg: 'http://simpleicon.com/wp-content/uploads/football.svg',
-          x: x + 25,
-          y: y + 50
+          x: x + 30,
+          y: y + 100
         });
       }
 
@@ -97,6 +97,9 @@ const myConfig = {
   nodeHighlightBehavior: true,
   staticGraph: true,
   width: '100%',
+  height: "100vh",
+  maxZoom: 3,
+  minZoom: 1,
   node: {
     color: "lightgreen",
     size: 200,
@@ -116,6 +119,7 @@ class GraphPage extends Component {
     return (
       <div className={classes.content}>
         <Graph
+          opacity={1}
           id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
           data={data}
           config={myConfig}
