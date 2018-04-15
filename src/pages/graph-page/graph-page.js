@@ -99,7 +99,7 @@ const myConfig = {
   width: '100%',
   height: "100vh",
   maxZoom: 3,
-  minZoom: 1,
+  minZoom: 2,
   node: {
     color: "lightgreen",
     size: 200,

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { sampleSize } from 'lodash';
+import { sampleSize, shuffle } from 'lodash';
 import { createStructuredSelector } from 'reselect';
 import AirMap from 'Components/air-map';
 import MarkerCountrie from 'Components/marker-countrie';
@@ -117,7 +117,7 @@ class VouterPage extends Component {
             { this.renderStatics() }
             { this.renderCard(this.state.voteList[this.state.count].img) }
             <CardActions>
-              { this.renderVotes([this.state.voteList[this.state.count].ans, ...sampleSize(teamsList, 3)]) }
+              { this.renderVotes(shuffle( [this.state.voteList[this.state.count].ans, ...sampleSize(teamsList, 3)] ))}
             </CardActions>
           </Card>
           <Grid>
